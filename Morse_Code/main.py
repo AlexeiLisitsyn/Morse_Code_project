@@ -1,4 +1,3 @@
-#  A text-based Python program to convert Strings into Morse Code.
 morse_code = {
     'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.', 'G': '--.', 'H': '....', 'I': '..',
     'J': '.---','K': '-.-', 'L': '.-..', 'M': '--', 'N': '-.', 'O': '---', 'P': '.--.', 'Q': '--.-', 'R': '.-.',
@@ -57,9 +56,3 @@ while app_on:
     else:
         app_on = False
 
-"""
-Write down how you approached the project. What was hard, what was easy?
-
-'The most challenging part was about "fromCode() func" with separating two delimiters: forward slash and whitespace. 
-It was a little confusing because method 'split()' has only one parameter. So I had to find a way to solve the problem.'
-"""
